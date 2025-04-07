@@ -9,5 +9,5 @@ sky:
   alioss:
       endpoint: oss-cn-beijing.aliyuncs.com
       access-key-id: LTAI5tHfdVb1Q37mDQERscAE
-      access-key-secret:
+      access-key-secret: 
       bucket-name: bucketseven
