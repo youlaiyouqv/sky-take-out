@@ -33,7 +33,7 @@ public interface DishMapper {
 
 
     /**
-     *
+     *菜品分页查询
      * @param dishPageQueryDTO
      * @return
      */
