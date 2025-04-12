@@ -23,6 +23,7 @@
        </set>
            where id = #{id}
     </update>
+
     <select id="pageQuery" resultType="com.sky.vo.SetmealVO">
         select s.*, c.name as categoryName from setmeal s left join category c on s.category_id = c.id
         <where>
@@ -38,4 +39,11 @@
         </where>
         order by s.create_time desc
     </select>
+
+    <delete id="deleteByIds">
+        delete from setmeal where id in
+        <foreach collection="ids" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
 </mapper>
