@@ -9,10 +9,13 @@ sky:
   alioss:
       endpoint: oss-cn-beijing.aliyuncs.com
       access-key-id: LTAI5tHfdVb1Q37mDQERscAE
-      access-key-secret:
+      access-key-secret: 
       bucket-name: bucketseven
   redis:
     host: localhost
     port: 6379
     password: '123456'
     database: 10
+  wechat:
+    appid: wx39e88290749f2a8d
+    secret: d8ac2ed5a7ef424990e742443e7dcfe8
